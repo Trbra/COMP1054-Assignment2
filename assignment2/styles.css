@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.lyrics {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Common styling for all sections */
+.lyrics p {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Styles for Verse section */
+.lyrics .verse {
+    background-color: #add8e6; /* Light Blue for a calm atmosphere */
+    font-weight: normal; /* Normal font weight for calmness */
+    font-size: 1.1em; /* Slightly smaller font size for calmness */
+    color: #4caf50; /* Calm green color for verse */
+    font-family: 'Caveat', cursive; /* Calm and handwritten font style */
+}
+
+
+/* Styles for Bridge section */
+.lyrics .bridge {
+    background-color: #ffe4b5; /* Moccasin color for a soft feel */
+    font-family: 'Bangers', cursive; /* Intense and bold font style */
+    font-size: 1.3em; /* Slightly larger font size for emphasis */
+    color: #8b4513; /* Saddle Brown color for bridge */
+}
+
+
+/* Styles for Chorus section */
+.lyrics .chorus {
+    background-color: #ffcc80; /* Light Orange */
+    font-family: 'Rock Salt', cursive; /* Change to the desired font */
+    font-size: 1.4em;
+    color: #5e5e5e;
+}
+
+/* Styles for Pre-Chorus section */
+.lyrics .pre-chorus {
+    background-color: rgb(242, 255, 98);
+    font-weight: bold;
+    font-size: 1.3em; /* Increase font size for intensity */
+    color: #d32f2f; /* Dark red color for pre-chorus */
+    font-family: 'Lobster', cursive; /* Distinctive font style */
+}
+
+
+/* Additional styling for emphasis */
+.lyrics .italic-bold-orange {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff4500; /* Orange-red color for emphasis */
+}
+
+/* Additional styling for emphasis */
+.lyrics strong {
+    color: #ff4500; /* Orange-red color for emphasis */
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
